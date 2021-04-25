@@ -1,7 +1,7 @@
 conjunto = {1, 2, 3, 4, 5}  # O conjunto exibe apenas 1 de cada elemento, ou seja, se adicionar um outro 3 na lista, ao dar um "Print" ele não será exibido
 conjunto2 = {5, 6, 7, 8}
 
-conjunto_mescaldo = conjunto.union(conjunto2) #O ".union" junta os dois conjuntos em 1 só
+conjunto_mescaldo = conjunto.union(conjunto2) #O ".union" junta os dois conjuntos em 1 só e o tipo "Lista" organiza eles em ordem
 
 conjunto_interseccao = conjunto.intersection(conjunto2) #O conjunto interseccao mostra todos os numeros que estão repetidos dentro do conjunto
 
