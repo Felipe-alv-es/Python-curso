@@ -9,8 +9,11 @@ class Televisao:
             self.ligada = True
 
 televisao = Televisao()
-print(televisao.ligada)
-televisao.power()
-print(televisao.ligada)
-televisao.power()
-print(televisao.ligada)
+
+if __name__ == '__main__':   #A classe pode ser chamada de fora do arquivo, então esse main serve para que essas funções abaixo sejam executadas só quando o proprio arquivo as chamar
+
+    print(televisao.ligada)
+    televisao.power()
+    print(televisao.ligada)
+    televisao.power()
+    print(televisao.ligada)
